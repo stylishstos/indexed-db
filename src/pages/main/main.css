@@ -1,0 +1,30 @@
+body {
+    background: #000;
+    color: lime;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.wrapper header, .wrapper footer {
+    grid-column: 1/-1;
+}
+
+.wrapper button {
+    border: none;
+    border-radius: 5px;
+    background: grey;
+    color: #fff;
+    cursor: pointer;
+}
+
+.wrapper fieldset {
+    border-radius: 5px;
+    border-color: lime;
+}
+
+.wrapper footer {
+    margin-top: 30px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Контроль за расходами</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <main class="wrapper">
+        <header>
+            <h1>Мои затраты</h1>
+        </header>
+        <section>
+            <h2>Добавить</h2>
+            <fieldset>
+                <label>
+                    Категория
+                    <button id="add-category" class="button" type="button">+</button>
+                    <select name="" id="categories-list"></select>
+                </label>
+            </fieldset>
+        </section>
+        <footer>
+            Вы используете node <script>document.write(process.versions.node)</script>,
+            Chrome <script>document.write(process.versions.chrome)</script>,
+            и Electron <script>document.write(process.versions.electron)</script>.
+        </footer>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
